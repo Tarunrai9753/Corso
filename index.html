@@ -19,7 +19,198 @@
 </head>
 <style>
    
+   body {
+    background-color: #fff7e9;
+    background-blend-mode: color-burn;
+}
 
+.i1 {
+    width: 100px;
+}
+
+body {
+    margin: 0;
+}
+
+.b1 {
+    width: 8.5rem;
+    border-radius: 2rem;
+}
+
+.bh {
+    height: 3rem;
+}
+
+.pvic1 {
+    margin-top: 17rem;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.bdrr {
+    border-radius: 1rem;
+}
+
+.inp {
+    height: 3rem;
+    background-color: #ffedd0;
+}
+
+.pfs {
+    font-size: 15px;
+}
+
+.pfs1 {
+    font-size: 12px;
+}
+
+.bh1 {
+    background-color: #ffbd50;
+    ;
+    border-color: black;
+    height: 3rem;
+    border: 2px solid;
+}
+
+.bh1:hover {
+    background-color: #ffedd0;
+}
+
+.bh11 {
+    background-color: #ffbd50;
+    ;
+    height: 3rem;
+}
+
+.bh11:hover {
+    background-color: #ffedd0;
+    border: 2px solid;
+    border-color: black;
+}
+
+.mtd1 {
+    padding-top: 50px;
+}
+
+.ddiv {
+    margin-top: 500px;
+}
+
+@media (max-width:500px) {
+    .ddiv {
+        margin-top: 200px;
+    }
+
+    .pvic1 {
+    margin-top: 7.5rem;
+}
+}
+
+@media (min-width:1200px) {
+    .ddiv {
+        margin-top: 590px;
+    }
+    .mtd1 {
+    padding-top: 100px;
+}
+
+}
+
+@media (max-width:500px) {
+    .img12 {
+        margin-left: 25px;
+    }
+
+}
+
+
+.bgim {
+    background-image: url(./image/aaaa1.png);
+    background-position: inherit;
+    margin: 0;
+    background-color: black;
+
+}
+
+
+
+.sp1 {
+    height: 50px;
+    width: 50px;
+    background-color: #eedc37;
+    border-radius: 50%;
+}
+
+
+@media (max-width:500px) {
+    .sp1 {
+        height: 50px;
+        width: 100px;
+        background-color: #eedc37;
+        border-radius: 50%;
+        padding-top: 7px;
+    }
+}
+
+.spn11 {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ffbd50;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.spn11:hover {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: #ffbd50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (min-width:500px) {
+    .margn {
+        margin-left: 20% !important;
+    }
+
+    .dsp {
+        width: 50%;
+    }
+}
+
+@media (max-width:500px) {
+    .img11 {
+        width: 400px;
+    }
+
+}
+
+.mar {
+    margin-left: 14%;
+}
+
+.btn1 {
+    background-color: #ffbd50;
+}
+
+.btn1:hover {
+    background-color: white;
+    border: 2px solid black;
+}
     .fass {
         color: #ffbd50 !important;
         font-size: 3rem !important;
@@ -125,7 +316,7 @@
         <!--Navbar End Here-->
 
 
-
+<div class="pt-3">
         <div class="container d-flex justify-content-center text-light mt-5">
 
             <p>This offer has expired!</p>
@@ -144,12 +335,13 @@
             </h5>
         </div>
 
-        <div class="container d-flex flex-wrap justify-content-center mt-5 mb-4">
+        <div class="container d-sm-flex justify-content-center text-center mt-5 mb-4">
             <button class="btn btn-warning text-black bh me-3 b1">REGISTER</button>
-            <button class="btn btn-dark text-white b1 bh mt-3 mt-md-0 me-3">DISCOVER</button>
+            <button class="btn btn-dark text-white b1 bh  mt-md-0 me-3">DISCOVER</button>
 
 
         </div>
+    </div>
 
 
 
@@ -613,7 +805,7 @@
         <!--Crousel Starts Here-->
         <div class="container-fluid">
 
-            <div>
+            <div class="d-none">
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
